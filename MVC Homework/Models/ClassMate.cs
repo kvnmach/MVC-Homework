@@ -7,8 +7,7 @@ namespace MVC_Homework.Models
 {
     public class ClassMate
     {
-        public class ClassMate
-        {
+        
             public ClassMate(int id, string name, string hair, double tall)
             {
                 Id = id;
@@ -22,4 +21,3 @@ namespace MVC_Homework.Models
             public double Height { get; set; }
         }
     }
-}
