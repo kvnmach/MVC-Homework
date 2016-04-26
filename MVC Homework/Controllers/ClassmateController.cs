@@ -7,6 +7,7 @@ namespace MVC_Homework.Controllers
     public class ClassmateController : Controller
     {
         // GET: Classmate
+       
         public ActionResult Index()
         {
             var classmates = new List<ClassMate>
@@ -20,6 +21,9 @@ namespace MVC_Homework.Controllers
                 new ClassMate(2, "Kevin", "Brown", 5.0)
             };
             return View(classmates);
+
         }
+
+       
     }
 }

@@ -1,0 +1,22 @@
+﻿@model  System.Collections.Generic.IEnumerable<MVC_Homework.Models.ClassMate>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div>Aesthetic cold-pressed flannel 8-bit, <br />raw denim truffaut tousled fap pop-up plaid. </div>
+<div class="jumbotron"></div>
+<h1>Kevins Local Host </h1>
+<div class="row"></div>
+<div>
+    @foreach (var c in Model)
+    {
+        <li>
+            @if (c.Name != null)
+            {
+                @c.Name
+            }, @c.HairColor,@c.Height</li>
+    }
+
+
+</div>
+<div>Aesthetic cold-pressed flannel 8-bit, <br />raw denim truffaut tousled fap pop-up plaid. </div>
